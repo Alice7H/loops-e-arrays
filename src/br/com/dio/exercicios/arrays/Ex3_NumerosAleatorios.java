@@ -12,7 +12,7 @@ public class Ex3_NumerosAleatorios {
 
         int[] numerosAleatorios = new int[20];
 
-        for(int i = 0; i < numerosAleatorios.length; i++) {
+        for (int i = 0; i < numerosAleatorios.length; i++) {
             int numero = random.nextInt(100);
             numerosAleatorios[i] = numero;
         }
@@ -24,17 +24,13 @@ public class Ex3_NumerosAleatorios {
 
         System.out.print("\nAntecessor dos Numeros Aleatorios: ");
         for (int numero : numerosAleatorios) {
-            System.out.print((numero-1) + " ");
+            System.out.print((numero - 1) + " ");
         }
 
         System.out.print("\nSucessores dos Numeros Aleatorios: ");
         for (int numero : numerosAleatorios) {
-            System.out.print((numero+1) + " ");
+            System.out.print((numero + 1) + " ");
         }
-
-
-
-
     }
 
 }
